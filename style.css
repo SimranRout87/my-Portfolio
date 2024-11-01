@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.smooth-animation{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background-color: #000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+.animation-content{
+    color: white;
+    /* font-size: 3rem; */
+    white-space:nowrap;
+    /* animation: animate 2s ease-in-out infinite; */
+    animation: animate 5s ease-in-out alternate;
+}
+@keyframes animate{
+    from{
+        letter-spacing:23px;
+    }
+    to{
+        letter-spacing: 2px;
+    }
+}
+
+
+  

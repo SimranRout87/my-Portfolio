@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio - Your Name</title>
+    <link rel="stylesheet" href="explore.css">
+</head>
+<body>
+    <div class="container">
+        <!-- Hero Section -->
+        <header class="hero">
+            <h1>M R Simran</h1>
+            <p class="pwd"> Passionate Web Designer</p>
+            <p class="turn-ideas">Turning ideas into interactive, user-friendly websites.</p>
+            <p class="clean-env">Passionate about creating clean, modern, and accessible web interfaces.</p>
+            <p>I am a student and learninf HTML5, css3, javascript,git,github,vscode,node js.</p>
+
+        </header>
+        <nav class="nav">
+            <ul>
+                <li><a href="https://drive.google.com/file/d/1rnuaxAP6_ChurYLuDfS7sAXhJEsKrRep/view?usp=sharing"> My Resume</a></li>
+            </ul>
+            <p class="resume-sec"><a href="https://drive.google.com/file/d/1rnuaxAP6_ChurYLuDfS7sAXhJEsKrRep/view?usp=sharing"><button class="res-btn">Click On It</button></a></p>
+          </nav>
+        <p class="check-projects">check out my projects and work that i have hosted online. shared both live projects and source code so that anyone can learn from it.</p>
+         <button id="learnMoreButton" onclick="showMoreCards()">Learn More</button>
+         <!-- Initial Card Row -->
+         <div class="card-container">
+             <div class="cards">
+                 <p>E-Commerce Platform</p>
+                 <button class="click" onclick="toggleContent(this)">Click Me 🫣👻</button>
+                 <div class="content">Description: "A fully responsive e-commerce website designed to provide an easy,enjoyable online shopping experience. Features a clean and modern interface, with smooth navigation through categories, a secure shopping cart, and checkout system. Implemented product filtering and search functionality to help users find exactly what they need."<br><br>
+                  Tech Stack: HTML, CSS, JavaScript.<br><br>
+                  key skilss:user interface design,responsive layout,javascript interactivity,user-focused naigation.<br><br>
+                  <!-- Key Skills: User interface design, responsive layout, JavaScript interactivity,user-focused navigation.<br><br> -->
+                <a href="#">GitHub Link:</a><br><br>
+                <a href="#">Netlify Link:</a>
+                </div>
+             </div>
+         
+             <div class="cards-01">
+                 <p>Weather API App</p>
+                 <button class="click" onclick="toggleContent(this)">Click Me 🫣👻</button>
+                 <div class="content">Description: "A weather app that fetches real-time weather data for any location. Integrated with a third-party API to deliver current temperature, humidity, wind speed, and forecast data. Users can input a location and get up-to-date weather information, displayed in a clean, easy-to-read format."<br><br>
+                  Tech Stack: HTML, CSS, JavaScript, Weather API.<br><br>
+                  Key Skills: API integration, data handling, dynamic content rendering, responsive design.<br><br>
+                  <a href="#">GitHub Link:</a><br><br>
+                  <a href="#">Netlify Link:</a>
+                </div>
+             </div>
+         
+             <div class="cards">
+                 <p>Countdown Timer</p>
+                 <button class="click" onclick="toggleContent(this)">Click Me 🫣👻</button>
+                 <div class="content">Description: "An interactive countdown timer designed for setting reminders for events, deadlines, or personal goals. Users can enter a specific time and watch the countdown update in real time. Built with a minimalist design and easy-to-use interface, ensuring that the focus remains on functionality."<br><br>
+                  Tech Stack: HTML, CSS, JavaScript.<br><br>
+                  Key Skills: Time-based JavaScript functions, user interface simplicity, responsive display for various devices.<br><br>
+                  <a href="#">GitHub Link:</a><br><br>
+                  <a href="#">Netlify Link:</a>
+                </div>
+             </div>
+         
+         
+         <!-- Hidden Cards to Show at the Bottom -->
+         <div class="card-container hidden" id="additionalCards">
+             <div class="cards">
+                 <p>RandomUserGenerator</p>
+                 <button class="click" onclick="toggleContent(this)">Click Me 🫣👻</button>
+                 <div class="content">Description:
+                  "A web application that generates random user profiles, including names, email addresses, phone numbers, and avatars. This tool is useful for developers needing dummy data for testing or design purposes. The interface is user-friendly, allowing users to generate multiple profiles at once and easily copy the data."<br><br>
+                  
+                  Tech Stack:
+                  HTML, CSS, JavaScript, Random User Generator API.<br><br>
+                  
+                  Key Skills:
+                  API integration, data rendering, user-friendly design, responsive layout.<br><br>
+                  <a href="#">GitHub Link:</a><br><br>
+                  <a href="#">Netlify Link:</a>
+                  
+                  </div>
+             </div>
+         
+             <div class="cards">
+                 <p>User List</p>
+                 <button class="click" onclick="toggleContent(this)">Click Me 🫣👻</button>
+                 <div class="content">Description:
+                  "A simple application that displays a list of users fetched from an API. Users can view details like names, email addresses, and profile pictures. The app includes features such as sorting and searching to enhance user experience. It aims to present user data in a clear and organized manner."<br><br>
+                  
+                  Tech Stack:
+                  HTML, CSS, JavaScript, REST API.<br><br>
+                  
+                  Key Skills:
+                  Data manipulation, user interface design, search functionality, responsive design.<br><br>
+                  <a href="#">GitHub Link:</a><br><br>
+                  <a href="#">Netlify Link:</a>
+                </div>
+             </div>
+         
+             <div class="cards">
+                 <p>Navy Translator</p>
+                 <button class="click" onclick="toggleContent(this)">Click Me 🫣👻</button>
+                 <div class="content">Description:
+                  "A translation application designed to convert text into Navy phonetic alphabet and back. This tool helps users communicate clearly in situations where clarity is crucial, like in military or maritime contexts. The interface is straightforward, allowing users to input text and see the translation instantly."<br><br>
+                  
+                  Tech Stack:
+                  HTML, CSS, JavaScript.<br><br>
+                  
+                  Key Skills:
+                  Text processing, user interface simplicity, real-time translation, responsive layout.<br><br>
+                  <a href="#">GitHub Link:</a><br><br>
+                  <a href="#">Netlify Link:</a>
+                </div>
+             </div>
+         
+             <div class="cards">
+                 <p>Submit Form</p>
+                 <button class="click" onclick="toggleContent(this)">Click Me 🫣👻</button>
+                 <div class="content">Description:
+                  "A contact form application that allows users to submit their information, such as name, email, and message. The form includes validation to ensure that all required fields are filled correctly before submission. Once submitted, users receive a confirmation message, enhancing the user experience."<br><br>
+                  
+                  Tech Stack:
+                  HTML, CSS, JavaScript.<br><br>
+                  
+                  Key Skills:
+                  Form validation, user feedback, event handling, responsive design.<br><br>
+                  <a href="#">GitHub Link:</a><br><br>
+                  <a href="#">Netlify Link:</a>
+                </div>
+             </div>
+       
+         
+         <div class="cards">
+          <p>NGD Recipes</p>
+          <button class="click" onclick="toggleContent(this)">Click Me 🫣👻</button>
+          <div class="content">Description: "A recipe application that makes it easy for users to discover and cook delicious dishes. Features an intuitive search bar, recipe listings with ingredients and step-by-step instructions, and a visually appealing layout. The design ensures that users can quickly find recipes and follow instructions seamlessly, whether on mobile or desktop."<br><br>
+            Tech Stack: HTML, CSS, JavaScript.<br><br>
+            Key Skills: User experience (UX) design, search functionality, content layout, responsive design for multiple devices.<br><br>
+            <a href="#">GitHub Link:</a><br><br>
+                  <a href="#">Netlify Link:</a>
+            </div>
+      </div>
+  </div>
+</div>
+</body>
+<script src="/explore.js"></script>
+</html>

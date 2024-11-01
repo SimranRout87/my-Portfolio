@@ -1,0 +1,138 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background: linear-gradient(90deg, #d598e3, #f5f5f5);
+    color: black;
+
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+/* Hero Section */
+.hero {
+    text-align: left;
+    padding: 50px;
+}
+
+.hero h1 {
+    font-size: 3rem;
+    /* color: #64ffda; Highlight color */
+    padding-bottom: 12px;
+    /* color: rgb(214, 211, 211); */
+    color: #a5afce;
+}
+.pwd{
+    padding-bottom:20px;
+    font-size: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.turn-ideas,.clean-env{
+    font-size: 15px;
+}
+.nav ul {
+    display: flex;
+    list-style-type: none;
+    justify-content: space-around;
+    padding: 10px 0;
+}
+.nav a {
+    color: #8892b0;
+    text-decoration: none;
+    font-size: 19px;
+}
+.resume-sec{
+    text-align: center;
+}
+.res-btn{
+    margin-left:0.1%;
+    padding: 3px 30px;
+    background-color: #8892b0;
+    font-weight: 700;
+    border-radius: 40px;
+}
+.check-projects{
+    text-align: center;
+    margin-top: 1.9%;
+    margin-bottom: 2%;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight:700;
+}
+.card-container {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+    
+}
+#additionalCards{
+    margin-top: 5%;
+}
+.cards, .cards-01 {
+    background: linear-gradient(to bottom, #0e548a, #b3b0b4);
+    padding: 15px;
+    border-radius: 10px;
+    height:450px;
+    width:350px;
+    text-align: center;
+    color: white;
+    box-shadow: 5px 5px 5px rgba(221, 5, 5, 0.1);
+    transition: width 0.3s;
+    border: 2px solid  rgba(221, 5, 5, 0.1) ;
+    opacity: 1;
+}
+.hidden {
+    display: none;
+}
+.click {
+    background-color: #333;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+#learnMoreButton {
+    background: linear-gradient(90deg, #e02fa5, #a127c9);
+    font-weight: 500;
+    font-size: 1rem;
+    padding: 10px 30px;
+    text-align:center;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 31%;
+    margin-left: 34%;
+    position: absolute;
+    display: block;
+}
+.content, .content-01 {
+    display: none;
+    /* background-color: #f0f8ff; */
+    /* padding: 10px; */
+    margin-top: 10px;
+    /* border-radius: 5px; */
+    color: black;
+    /* font-size: 0.9em; */
+    text-align: justify;
+}
+.hidden {
+    display: none;
+}
+.visible {
+    display: block; 
+}
+
+
+
+  
